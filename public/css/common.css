@@ -46,3 +46,14 @@ div#menu a {
 }
 div#menu a.active, div#menu a.active:hover { background-color: #a20025; color: #fff;}
 div#menu a:hover { background-color: #ccc; color: #000;}
+
+div#content {
+    min-height: 500px;
+    margin: 10px 0;
+}
+
+div#footer {
+    padding: 20px;
+    color: #aaa;
+    background-color: #333;
+}
