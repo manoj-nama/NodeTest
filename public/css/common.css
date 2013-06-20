@@ -1,0 +1,48 @@
+/* >>> CSS RESET <<<--------------------------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center, ul,li,
+dl, dt, dd,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    outline: 0px;
+    vertical-align: baseline;
+    background: transparent;
+}
+a{ text-decoration:none; }
+
+body {
+    background-color: #fff;
+    font-family: sans-serif;
+}
+#container {
+    background-color: #fff;
+    width: 900px;
+    margin: 0 auto;
+}
+#container h1 {
+    padding: 20px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+div#menu {
+    background-color: #eee;
+    margin-bottom: 10px;
+}
+div#menu a {
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px;
+    text-transform: capitalize;
+}
+div#menu a.active, div#menu a.active:hover { background-color: #a20025; color: #fff;}
+div#menu a:hover { background-color: #ccc; color: #000;}
