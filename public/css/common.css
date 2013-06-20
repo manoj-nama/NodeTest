@@ -48,12 +48,14 @@ div#menu a.active, div#menu a.active:hover { background-color: #a20025; color: #
 div#menu a:hover { background-color: #ccc; color: #000;}
 
 div#content {
-    min-height: 500px;
+    min-height: 300px;
     margin: 10px 0;
 }
 
 div#footer {
     padding: 20px;
+    font-size: 13px;
+    text-align: center;
     color: #aaa;
     background-color: #333;
 }
